@@ -2,7 +2,7 @@ name: 'Use SurrealDB in GitHub Actions'
 description: 'Start a SurrealDB Server'
 
 branding:
-  icon: 'hexagon'
+  icon: 'database'
   color: 'purple'
 
 inputs:
