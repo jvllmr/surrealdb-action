@@ -1,0 +1,24 @@
+name: 'Use SurrealDB in GitHub Actions'
+description: 'Start a SurrealDB Server'
+
+branding:
+  icon: 'hexagon'
+  color: 'purple'
+
+inputs:
+  surrealdb-version:
+    description: 'SurrealDB version, default is latest'
+    required: false
+    default: 'latest'
+  surrealdb-port:
+    description: 'SurrealDB port, default is 8000'
+    required: false
+    default: 8000
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.surrealdb-version }}
+    - ${{ inputs.surrealdb-port }}
+ 
