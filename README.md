@@ -31,7 +31,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Start SurrealDB
-      uses: jvllmr/surrealdb-action@1.0
+      uses: jvllmr/surrealdb-action@1.0.0
       with:
         surrealdb-version: latest
         surrealdb-port: 8000
