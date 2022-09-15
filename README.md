@@ -8,15 +8,15 @@ Github Action for using SurrealDB in your tests
 
 The version of SurrealDB to run
 
-Default: "latest"
+- Default: "latest"
 
-Possible values: https://hub.docker.com/r/surrealdb/surrealdb/tags
+- Possible values: https://hub.docker.com/r/surrealdb/surrealdb/tags
 
 ### surrealdb-port
 
 The port SurrealDB will be bound to
 
-Default: 8000
+- Default: 8000
 
 ## Usage
 
