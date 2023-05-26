@@ -1,6 +1,6 @@
 # surrealdb-action
 
-Github Action for using SurrealDB in your tests
+GitHub Action for using SurrealDB in your tests
 
 ## Action Args
 
