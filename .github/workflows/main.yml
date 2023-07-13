@@ -20,3 +20,6 @@ jobs:
 
       - name: Use Action
         uses: ./
+
+      - name: Execute SurrealQL
+        run: docker exec surrealdb /surreal sql -c http://localhost:8000 -u root -p root --ns test --db test --pretty
