@@ -22,4 +22,4 @@ jobs:
         uses: ./
 
       - name: Execute SurrealQL
-        run: docker exec surrealdb /surreal sql -c http://localhost:8000 -u root -p root --ns test --db test --pretty
+        run: docker exec surrealdb /surreal version --endpoint http://localhost:8000
